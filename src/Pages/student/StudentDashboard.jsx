@@ -143,9 +143,12 @@ export default function StudentDashboard() {
     <div className="min-h-screen bg-slate-100">
       <header className="border-b bg-white shadow-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <h1 className="text-lg font-semibold text-slate-800">
-            Tutor Management System
-          </h1>
+        <h1 className="mb-1 text-center text-2xl font-semibold text-slate-800">
+  EduConnect
+</h1>
+<p className=" text-lg text-center text-indigo-600">
+  Smart Tutor Management System
+</p>
           <p className="text-sm text-slate-500">Student Portal</p>
         </div>
       </header>

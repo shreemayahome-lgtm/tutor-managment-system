@@ -36,9 +36,12 @@ export default function Login() {
       <div className="pointer-events-none absolute bottom-16 left-10 h-64 w-64 rounded-full bg-pink-500/30 blur-3xl" />
 
       <div className="relative w-full max-w-md rounded-2xl border border-white/10 bg-white/10 p-8 shadow-2xl backdrop-blur-xl">
-        <h1 className="mb-1 text-center text-2xl font-bold text-white">
-          Tutor Management System
-        </h1>
+      <h1 className="mb-1 text-center text-2xl font-bold text-white">
+  EduConnect
+</h1>
+<p className="mb-6 text-center text-sm text-indigo-100">
+  Smart Tutor Management System
+</p>
         <p className="mb-6 text-center text-sm text-indigo-100">
           Login to your portal
         </p>
