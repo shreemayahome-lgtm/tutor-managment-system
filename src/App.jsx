@@ -9,8 +9,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <AuthProvider>
-      <BrowserRouter>
+
+
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
@@ -45,8 +45,8 @@ function App() {
           {/* default route */}
           <Route path="*" element={<Login />} />
         </Routes>
-      </BrowserRouter>
-    </AuthProvider>
+
+
   );
 }
 
