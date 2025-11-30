@@ -146,7 +146,7 @@ export default function StudentDashboard() {
         <h1 className="mb-1 text-center text-2xl font-semibold text-slate-800">
   EduConnect
 </h1>
-<p className=" text-lg text-center text-indigo-600">
+<p className="hidden md:block text-lg text-center text-indigo-600">
   Smart Tutor Management System
 </p>
           <p className="text-sm text-slate-500">Student Portal</p>
